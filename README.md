@@ -10,7 +10,7 @@ Remember, to run the repository:
 
 1- Add project
 
-´ git clone https://github.com/jriosMELI/fundamentalsOfProgrammingOnGolang.git´
+´ git clone https://github.com/jriosMELI/fundamentalsOfProgrammingOnGolang.git ´
 
 2- Run project
 
