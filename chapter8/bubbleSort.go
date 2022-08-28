@@ -2,7 +2,7 @@ package chapter8
 
 import "fmt"
 
-func SortedFromSmallesToLargest(arr []int) {
+func SortedFromSmallesToLargestBubbleSort(arr []int) {
 	for i := 0; i < (len(arr) - 1); i++ {
 		for j := 0; j < (len(arr) - 1); j++ {
 			if arr[j] > arr[j+1] {
@@ -15,7 +15,7 @@ func SortedFromSmallesToLargest(arr []int) {
 	}
 }
 
-func SortedFromLargestToSmalles(arr []int) {
+func SortedFromLargestToSmallesBubbleSort(arr []int) {
 	for i := 0; i < (len(arr) - 1); i++ {
 		for j := 0; j < (len(arr) - 1); j++ {
 			if arr[j] < arr[j+1] {
@@ -28,7 +28,7 @@ func SortedFromLargestToSmalles(arr []int) {
 	fmt.Println(arr)
 }
 
-func SortedFromSmallesToLargestOptimizated(arr []int) {
+func SortedFromSmallesToLargestOptimizatedBubbleSort(arr []int) {
 	sorted := false
 	i := 0
 
